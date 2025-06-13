@@ -6,21 +6,26 @@ This is my take on the old Rock, Paper, Scissors game.
 
 The game will use a text-based interface, be lightweight (no external dependencies), and include error handling for invalid inputs, drawing from lessons learned in previous games (e.g., handling EOFError and environment-specific input issues).
 
-  The game features:
+The game features the following:
+
 Multiplayer Mode:
-    Option to choose single-player (vs. computer) or multiplayer (player vs. player).
-    In multiplayer, both players input choices (with input masking for fairness).
-    In single player mode, Player 1 enters name and Computer is assigned a "special" name.
-    In multiplayer mode, both Player 1 and Player 2 enter their names.
+
+Option to choose single-player (vs. computer) or multiplayer (player vs. player).
+In multiplayer, both players input choices (with input masking for fairness).
+In single player mode, Player 1 enters name and Computer is assigned a "special" name.
+In multiplayer mode, both Player 1 and Player 2 enter their names.
+
 Flexible Input: Accepts full choice names or single-letter shortcuts for convenience.
+
 Clear win/loss rules:
-    Rock crushes Scissors and Lizard.
-    Paper covers Rock and disproves Spock.
-    Scissors cuts Paper and decapitates Lizard.
-    Lizard poisons Spock and eats Paper.
-    Spock smashes Scissors and vaporizes Rock.
+  Rock crushes Scissors and Lizard.
+  Paper covers Rock and disproves Spock.
+  Scissors cuts Paper and decapitates Lizard.
+  Lizard poisons Spock and eats Paper.
+  Spock smashes Scissors and vaporizes Rock.
+
 Difficulty Levels:
-    Easy: Random computer choices (as in the original).
+Easy: Random computer choices (as in the original).
     Medium: Tracks player’s last 3 choices and biases toward counters.
     Hard: Uses a simple Markov chain to predict based on choice history.
 Score Tracking: Keeps track of player and computer scores across rounds.
@@ -43,7 +48,8 @@ Visual Features:
     Clear Display shows round number, current score, and game results with a clean console layout.
 
 
-  How to Play:
+How to Play the game:
+
 Run the script: python RPSLSgame.py.
 Read the rules displayed at the start, which explain how each choice beats two others.
 Enter your choice when prompted:
